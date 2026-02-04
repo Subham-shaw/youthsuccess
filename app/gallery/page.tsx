@@ -4,16 +4,60 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import fs from "fs";
 import path from "path";
-
-const galleryDir = path.join(process.cwd(), "public/gallery");
-
-const images = fs
-  .readdirSync(galleryDir)
-  .filter((f) => /\.(png|jpe?g|webp)$/i.test(f))
-  .map((f) => `/gallery/${f}`);
-
-
-
+const images = [
+  "https://github.com/Subham-shaw/successrace/blob/master/public/gallery/1.JPG?raw=true",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+];
 
 const Gallery = () => {
   return (
