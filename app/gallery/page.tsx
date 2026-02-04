@@ -2,62 +2,8 @@ import React from 'react'
 import { StickyCard_003 } from "@/components/ui/skiper-ui/skiper34";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import fs from "fs";
-import path from "path";
-const images = [
-  "https://github.com/Subham-shaw/successrace/blob/master/public/gallery/1.JPG?raw=true",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-];
+
+const images = Array.from({ length: 56 }, (_, i) => `/gallery/${i + 1}.jpg`);
 
 const Gallery = () => {
   return (
