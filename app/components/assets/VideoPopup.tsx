@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Video from "next-video";
-import backgroundVideo from "@/videos/background2.mp4";
+import youthsuccess from '@/videos/youthsuccess.mp4'
 import { X } from "lucide-react";
 import { HoverBorder } from "./HoverBorder";
 
@@ -62,7 +62,8 @@ export default function VideoPopup() {
 
             {/* Video */}
             <Video
-              src={backgroundVideo}
+              src={youthsuccess}
+              poster="/logo.jpeg"
               autoPlay
               controls
               playsInline

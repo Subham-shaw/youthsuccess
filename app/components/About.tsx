@@ -63,7 +63,7 @@ const About = () => {
             className="tracking-wide text-sm md:text-base text-center md:text-left"
           />
           <div className="flex w-60 justify-between mx-auto md:mx-0 py-10">
-            <a href="" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
+            <a href="https://www.youtube.com/@YOUTHSUCCESECCOMMERCEPVTLTD" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
               <img width="50" height="50" src="https://img.icons8.com/color/96/youtube-play.png"
                 alt="youtube-play" />
             </a>

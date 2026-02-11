@@ -1,0 +1,23 @@
+{
+    "status": "ready",
+    "originalFilePath": "videos\\youthsuccess.mp4",
+    "provider": "mux",
+    "providerMetadata": {
+        "mux": {
+            "uploadId": "gc868HoED5x3bs4Ntkdf9NCXFIEXK01v7OSmOJMuST01c",
+            "assetId": "wG01xsjzFTk402MzZDsnX01m02TbH2VwdgQsGdO2f3gD9hw",
+            "playbackId": "V2AMg02p45g4Al5mABVNHnnrhqyZ8s024UFIypLX6pl6o"
+        }
+    },
+    "createdAt": 1770808037049,
+    "updatedAt": 1770808175477,
+    "size": 449140910,
+    "sources": [
+        {
+            "src": "https://stream.mux.com/V2AMg02p45g4Al5mABVNHnnrhqyZ8s024UFIypLX6pl6o.m3u8",
+            "type": "application/x-mpegURL"
+        }
+    ],
+    "poster": "https://image.mux.com/V2AMg02p45g4Al5mABVNHnnrhqyZ8s024UFIypLX6pl6o/thumbnail.webp",
+    "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAwAgCdASoQAAkAAQAcJYwCdIExGCbnCwocIAD+/Zhjvn87z6gU5uMrVhA7khex+gFFKLD/fqH7/3/04y0t7+e//+69sEd0tbIPJYl0fh/lk7+fmnspm//iUsTev5P2jEoMP/HDxifYkRT6Feg7KMU77FeZBx28qLHZBOo+79HngAAA"
+}

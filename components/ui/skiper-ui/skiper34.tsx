@@ -77,6 +77,7 @@ const StickyCard_003 = ({ imgUrl }: { imgUrl: string }) => {
       w-auto
       object-contain
       block
+      rounded-2xl
     "
   />
 </motion.div>

@@ -34,8 +34,8 @@ const Navbar = () => {
                     <Link href="/#services">Services</Link>
                     <Link href="/#about">About</Link>
                     <Link href="/#contact">Contact</Link>
-                    <Link href="/legal">Legal</Link>
                     <Link href="/gallery">Gallery</Link>
+                    <Link href="/legal">Legal</Link>
                     <Link href="/signin" className="p-2 m-2 text-2xl font-bold" id='login'>
                         <LoginIcon /> Sign In
                     </Link>
@@ -66,8 +66,8 @@ const Navbar = () => {
                         <Link onClick={() => setOpen(false)} href="/#services">Services</Link>
                         <Link onClick={() => setOpen(false)} href="/#about">About</Link>
                         <Link onClick={() => setOpen(false)} href="/#contact">Contact</Link>
-                        <Link onClick={() => setOpen(false)} href="/legal">Legal</Link>
                         <Link onClick={() => setOpen(false)} href="/gallery">Gallery</Link>
+                        <Link onClick={() => setOpen(false)} href="/legal">Legal</Link>
 
 
                         <Link

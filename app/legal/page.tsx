@@ -46,7 +46,7 @@ export default function Legals() {
   return (
     <>
     <Navbar/>
-      <section className="mx-auto max-w-6xl px-4 py-50 h-max md:h-screen">
+      <section className="mx-auto max-w-6xl px-4 py-50 h-max">
         <h1 className="heading mb-10 text-center text-4xl md:text-6xl font-bold">
           Legal Documents
         </h1>
