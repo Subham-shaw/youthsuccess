@@ -57,10 +57,10 @@ export default function Footer() {
               Email:{" "}
               <br />
               <a
-                href="mailto:success01021986@gmail.com"
+                href="mailto:youthsuccessecommerce@gmail.com"
                 className="hover:text-green-500 mr-2"
               >
-                success01021986@gmail.com
+                youthsuccessecommerce@gmail.com
               </a>
               <br />
               <a

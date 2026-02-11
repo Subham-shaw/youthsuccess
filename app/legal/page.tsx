@@ -17,11 +17,11 @@ const documents = [
   
   {
     title: "PAN Card",
-    image: "/legals/pan.jpg",
+    image: "/legals/pan-certificate.jpg",
   },
   {
     title: "TAN Certificate",
-    image: "/legals/tan-certificate.jpg",
+    image: "/legals/tan.jpg",
   },
   {
     title: "ISO",

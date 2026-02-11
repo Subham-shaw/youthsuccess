@@ -62,23 +62,23 @@ const About = () => {
             words={words1}
             className="tracking-wide text-sm md:text-base text-center md:text-left"
           />
-          <div className="flex w-60 justify-between mx-auto md:mx-0 py-10">
+          <div className="flex w-45 justify-between mx-auto md:mx-0 py-10">
             <a href="https://www.youtube.com/@YOUTHSUCCESECCOMMERCEPVTLTD" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
               <img width="50" height="50" src="https://img.icons8.com/color/96/youtube-play.png"
                 alt="youtube-play" />
             </a>
-            <a href="" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
+            <a href="https://www.facebook.com/share/1A9ZVX31A5/" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
               <img width="50" height="50" src="https://img.icons8.com/fluency/96/facebook-new.png"
                 alt="facebook-new" />
             </a>
-            <a href="" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
+            <a href="https://www.instagram.com/youthsuccessecommerce" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
               <img width="50" height="50" src="https://img.icons8.com/3d-fluency/94/instagram-new.png"
                 alt="instagram-new" />
             </a>
-            <a href="" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
+            {/* <a href="" target="_blank" className="hover:scale-125 transition-all duration-300 ease-in-out">
               <img width="50" height="50" src="https://img.icons8.com/color/96/linkedin.png"
                 alt="linkedin" />
-            </a>
+            </a> */}
           </div>
         </div>
         {/* </SlideUpOnScroll> */}
