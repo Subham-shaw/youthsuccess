@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
 
           {/* Address */}
-          <p className="text-xs leading-relaxed text-neutral-400">
+          <p className="text-xs leading-relaxed text-neutral-300">
             Youthsuccess Ecommerce Pvt. Ltd.<br />
             Sitesh Nagar, Lalgola<br />
             Murshidabad - 742151 <br />
@@ -35,6 +35,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div className="text-sm space-y-1">
+            <p className="my-5 font-extrabold">
+              Toll-Free Number:{" "}
+            <br />
+              <a href="tel:1800-212-0152" className="hover:text-green-500 mr-2">
+                1800-212-0152
+              </a>
+            </p>
             <p className="my-5">
               Phone:{" "}
             <br />
@@ -44,13 +51,6 @@ export default function Footer() {
               <br />
               <a href="tel:+919831706745" className="hover:text-green-500">
                 +91 98317 06745
-              </a>
-            </p>
-            <p className="my-5">
-              Toll-Free Number:{" "}
-            <br />
-              <a href="tel:1800-212-0152" className="hover:text-green-500 mr-2">
-                1800-212-0152
               </a>
             </p>
             <p>

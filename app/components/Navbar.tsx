@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link href="/#contact">Contact</Link>
                     <Link href="/gallery">Gallery</Link>
                     <Link href="/legal">Legal</Link>
-                    <Link href="/signin" className="p-2 m-2 text-2xl font-bold" id='login'>
+                    <Link href="/signin" className="btn-green p-2 m-2 text-2xl font-bold">
                         <LoginIcon /> Sign In
                     </Link>
                 </ul>
@@ -73,8 +73,7 @@ const Navbar = () => {
                         <Link
                             onClick={() => setOpen(false)}
                             href="/signin"
-                            className="p-1.5 m-2 text-xl font-bold"
-                            id="login"
+                            className="btn-green p-1.5 m-2 text-xl font-bold"
                         >
                             <LoginIcon /> Sign In
                         </Link>

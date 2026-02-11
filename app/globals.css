@@ -169,7 +169,7 @@ nav ul a:hover {
     color: #3c9115;
 }
 
-#login {
+.btn-green {
     border: 1px solid transparent;
     border-radius: 10px;
     color: #fff;
@@ -181,9 +181,11 @@ nav ul a:hover {
     transition: 0.4s;
 
 }
-#login:hover {
-    background-position: right center;
+.btn-green:hover {
+    /* background-position: right center; */
     box-shadow: 0 0 50px #50C878;
+    color: #fff;
+
     /* transform: scale(1.01); */
 }
 

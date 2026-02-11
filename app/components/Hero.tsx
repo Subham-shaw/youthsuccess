@@ -4,6 +4,7 @@ import BackgroundVideo from "next-video/background-video";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import MainMotion from "@/components/MainMotion";
 import VideoPopup from "./assets/VideoPopup";
+import { ImagesBadgeButton } from "./assets/ImagesBadgeButton";
 
 const words = `Excellence in delivering expert analysis for`;
 
@@ -32,14 +33,14 @@ export default function Main() {
         className="
           relative z-20
           flex min-h-[100svh] flex-col items-center justify-center
-          px-4 sm:px-6 lg:px-8
+          sm:px-6 lg:px-8
           text-center
         "
       >
         <h1
           className="
             text-white font-extrabold leading-tight
-            text-2xl sm:text-4xl md:text-5xl
+            text-3xl sm:text-4xl md:text-5xl
             lg:text-6xl xl:text-7xl
             max-w-[90vw] sm:max-w-4xl md:max-w-[80vw] md:m-5
           "
@@ -51,8 +52,9 @@ export default function Main() {
           <MainMotion />
         </div>
 
-        <div className="z-9999">
+        <div className="z-9999 flex flex-row justify-center items-center mt-5">
           <VideoPopup />
+          <ImagesBadgeButton/>
         </div>
       </div>
     </section>
