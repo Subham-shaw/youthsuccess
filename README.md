@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 YouthSuccess Eccomerce Pvt. Ltd.
 
-## Getting Started
+A production-ready Next.js application.
 
-First, run the development server:
+------------------------------------------------------------------------
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 📦 Tech Stack
+
+-   Next.js
+-   Node.js
+-   React
+
+------------------------------------------------------------------------
+
+# 🛠️ System Requirements
+
+Make sure your server has:
+
+-   Node.js 18 or higher
+-   npm (comes with Node)
+
+Check versions:
+
+``` bash
+node -v
+npm -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+------------------------------------------------------------------------
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🏗️ Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build the optimized production version:
 
-## Learn More
+``` bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This generates an optimized `.next` build folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+------------------------------------------------------------------------
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# ▶️ Run in Production
 
-## Deploy on Vercel
+Start the production server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+``` bash
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+By default, the app runs at:
+
+http://localhost:3000
+
+To change the port:
+
+``` bash
+PORT=4000 npm start
+```
+
+------------------------------------------------------------------------
+
+# 🧠 Using PM2 (Recommended for VPS Deployment)
+
+Install PM2 globally:
+
+``` bash
+npm install -g pm2
+```
+
+Start the app:
+
+``` bash
+pm2 start npm --name "next-app" -- start
+```
+
+Save the PM2 process list:
+
+``` bash
+pm2 save
+```
+
+Enable startup on reboot:
+
+``` bash
+pm2 startup
+```
+
+Restart the app anytime:
+
+``` bash
+pm2 restart next-app
+```
+
+------------------------------------------------------------------------
+
+# 🌐 Using Nginx as Reverse Proxy (Optional but Recommended)
+
+Example Nginx configuration:
+
+``` nginx
+server {
+    listen 80;
+    server_name yourdomain.com;
+
+    location / {
+        proxy_pass http://localhost:3000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+```
+
+After adding the config:
+
+``` bash
+sudo systemctl restart nginx
+```
+
+------------------------------------------------------------------------
+
+# 🐳 Docker (Optional)
+
+Build the Docker image:
+
+``` bash
+docker build -t next-app .
+```
+
+Run the container:
+
+``` bash
+docker run -p 3000:3000 next-app
+```
+
+------------------------------------------------------------------------
+
+# 🧪 Development Mode
+
+For local development:
+
+``` bash
+npm run dev
+```
+
+Runs at:
+
+http://localhost:3000
