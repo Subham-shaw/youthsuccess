@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         // bg-[#ffffffa1]
-        <nav className="fixed left-0 w-screen z-9999 backdrop-blur-2xl bg-white px-4 md:px-[5vw] py-5 md:py-0"> 
+        <nav className="fixed left-0 w-screen z-9999 backdrop-blur-2xl bg-white px-4 md:px-[5vw] py-5 md:py-0">
             <div className="flex items-center justify-between">
                 {/* Logo */}
                 <a href={'/#'}>
@@ -36,8 +36,10 @@ const Navbar = () => {
                     <Link href="/#contact">Contact</Link>
                     <Link href="/gallery">Gallery</Link>
                     <Link href="/legal">Legal</Link>
-                    <Link href="/signin" className="btn-green p-2 m-2 text-2xl font-bold">
-                        <LoginIcon /> Sign In
+                    <Link href="https://dashbaord.successrace.com/sr/login/"
+                        target='_blank'
+                        className="btn-green p-2 m-2 text-2xl font-bold">
+                        <LoginIcon /> Log In
                     </Link>
                 </ul>
 
@@ -72,10 +74,11 @@ const Navbar = () => {
 
                         <Link
                             onClick={() => setOpen(false)}
-                            href="/signin"
+                            href="https://dashbaord.successrace.com/sr/login/"
+                            target='_blank'
                             className="btn-green p-1.5 m-2 text-xl font-bold"
                         >
-                            <LoginIcon /> Sign In
+                            <LoginIcon /> Log In
                         </Link>
                     </ul>
                 </div>
