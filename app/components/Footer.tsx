@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-neutral-700 text-neutral-300">
       {/* Top Section */}
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 md:grid-cols-4 gap-10">
-        
+
         {/* Logo + Address */}
         <div className="space-y-4">
           {/* Logo */}
@@ -21,7 +21,7 @@ export default function Footer() {
               className="rounded-2xl"
             />
             {/* <span className="text-xl font-semibold text-white"> */}
-              {/* Youthsuccess */}
+            {/* Youthsuccess */}
             {/* </span> */}
           </div>
 
@@ -37,14 +37,14 @@ export default function Footer() {
           <div className="text-sm space-y-1">
             <p className="my-5 font-extrabold">
               Toll-Free Number:{" "}
-            <br />
+              <br />
               <a href="tel:1800-212-0152" className="hover:text-green-500 mr-2">
                 1800-212-0152
               </a>
             </p>
             <p className="my-5">
               Phone:{" "}
-            <br />
+              <br />
               <a href="tel:+917047354422" className="hover:text-green-500 mr-2">
                 +91 70473 54422
               </a>
@@ -97,21 +97,27 @@ export default function Footer() {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link href="/gallery" className="hover:text-green-500">
-                Gallery
-              </Link>
-            </li>
+            
           </ul>
         </div>
 
         {/* Legal Links */}
         <div className="md:pt-10">
-          <h4 className="text-white font-semibold mb-4">Legals</h4>
+          <h4 className="text-white font-semibold mb-4">Others</h4>
           <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/gallery" className="hover:text-green-500">
+                Gallery
+              </Link>
+            </li>
             <li>
               <Link href="/legal" className="hover:text-green-500">
                 Legal
+              </Link>
+            </li>
+            <li>
+              <Link href="https://dashbaord.successrace.com/sr/login/" className="hover:text-green-500">
+                Dashboard
               </Link>
             </li>
             {/* <li>
