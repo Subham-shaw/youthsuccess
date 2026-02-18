@@ -24,7 +24,7 @@ const Navbar = () => {
                             height={80}
                             alt="Picture of the author"
                         />
-                        <h1 className="font-bold text-xl px-2 md:text-3xl">Youthsuccess Ecco. Pvt. Ltd.</h1>
+                        <h1 className="font-bold text-xl px-2 md:text-3xl">Youthsuccess Eccomerce</h1>
                     </div>
                 </a>
 

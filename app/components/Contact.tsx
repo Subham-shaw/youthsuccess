@@ -98,7 +98,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold ">Our Location</h3>
                     <p className="mt-2 ">
                       1/A First Floor Pashupati Appatment Dumdum Road<br />
-                      Kolkata 700030
+                      Kolkata - 700030
                       {/* <br /> 
                       <br />
                       Sadakash Seikh, Sitesh Nagar, Lalgola <br />

@@ -28,8 +28,8 @@ export default function Footer() {
           {/* Address */}
           <p className="text-xs leading-relaxed text-neutral-300">
             Youthsuccess Ecommerce Pvt. Ltd.<br />
-            Sitesh Nagar, Lalgola<br />
-            Murshidabad - 742151 <br />
+            1/A First Floor Pashupati Appatment Dumdum Road<br />
+            Kolkata - 700030 <br />
             West Bengal, India
           </p>
 
