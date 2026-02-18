@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link href="/#contact">Contact</Link>
                     <Link href="/gallery">Gallery</Link>
                     <Link href="/legal">Legal</Link>
-                    <Link href="https://dashbaord.bhooniti.com/login/"
+                    <Link href="https://dashboard.bhooniti.com/login/"
                         target='_blank'
                         className="btn-green p-2 m-2 text-2xl font-bold">
                         <LoginIcon /> Log In
@@ -74,7 +74,7 @@ const Navbar = () => {
 
                         <Link
                             onClick={() => setOpen(false)}
-                            href="https://dashbaord.bhooniti.com/login/"
+                            href="https://dashboard.bhooniti.com/login/"
                             target='_blank'
                             className="btn-green p-1.5 m-2 text-xl font-bold"
                         >
